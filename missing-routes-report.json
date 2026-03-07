@@ -1,0 +1,455 @@
+{
+  "generatedAt": "2026-01-31T17:03:57.940Z",
+  "source": "Europedashboard.html",
+  "cityCount": 38,
+  "totalDirectedPairs": 1406,
+  "missingDirectedPairs": 50,
+  "missingByCity": {
+    "Vancouver": [
+      "Berlin",
+      "Budapest",
+      "Hamburg",
+      "Madrid",
+      "Milan",
+      "Munich",
+      "Riga",
+      "San Sebastian",
+      "Seville",
+      "Split",
+      "Stockholm",
+      "Tallinn",
+      "Trieste",
+      "Vienna",
+      "Warsaw",
+      "Zagreb"
+    ],
+    "Vienna": [
+      "Vancouver"
+    ],
+    "Split": [
+      "Vancouver"
+    ],
+    "London": [
+      "Bruges",
+      "Lyon",
+      "Nice",
+      "Valletta"
+    ],
+    "Budapest": [
+      "Vancouver"
+    ],
+    "Zagreb": [
+      "Vancouver"
+    ],
+    "Riga": [
+      "Vancouver"
+    ],
+    "Munich": [
+      "Vancouver"
+    ],
+    "Warsaw": [
+      "Vancouver"
+    ],
+    "Tallinn": [
+      "Vancouver"
+    ],
+    "San Sebastian": [
+      "Vancouver"
+    ],
+    "Berlin": [
+      "Vancouver"
+    ],
+    "Madrid": [
+      "Vancouver"
+    ],
+    "Stockholm": [
+      "Vancouver"
+    ],
+    "Hamburg": [
+      "Vancouver"
+    ],
+    "Milan": [
+      "Vancouver"
+    ],
+    "Seville": [
+      "Vancouver"
+    ],
+    "Trieste": [
+      "Vancouver"
+    ],
+    "Valletta": [
+      "Bruges",
+      "London",
+      "Lyon",
+      "Nice"
+    ],
+    "Lyon": [
+      "Bruges",
+      "London",
+      "Valletta"
+    ],
+    "Nice": [
+      "Bruges",
+      "London",
+      "Valletta"
+    ],
+    "Bruges": [
+      "London",
+      "Lyon",
+      "Nice",
+      "Valletta"
+    ]
+  },
+  "missingDetails": [
+    {
+      "from": "Berlin",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bruges",
+      "to": "London",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bruges",
+      "to": "Lyon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bruges",
+      "to": "Nice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bruges",
+      "to": "Valletta",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Budapest",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Hamburg",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "London",
+      "to": "Bruges",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "London",
+      "to": "Lyon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "London",
+      "to": "Nice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "London",
+      "to": "Valletta",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lyon",
+      "to": "Bruges",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lyon",
+      "to": "London",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lyon",
+      "to": "Valletta",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Madrid",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Milan",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Munich",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Nice",
+      "to": "Bruges",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Nice",
+      "to": "London",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Nice",
+      "to": "Valletta",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Riga",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "San Sebastian",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Seville",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Split",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Stockholm",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Tallinn",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Trieste",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valletta",
+      "to": "Bruges",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valletta",
+      "to": "London",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valletta",
+      "to": "Lyon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valletta",
+      "to": "Nice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Berlin",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Budapest",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Hamburg",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Madrid",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Milan",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Munich",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Riga",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "San Sebastian",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Seville",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Split",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Stockholm",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Tallinn",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Trieste",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Vienna",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Warsaw",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Zagreb",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vienna",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Warsaw",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Zagreb",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    }
+  ]
+}

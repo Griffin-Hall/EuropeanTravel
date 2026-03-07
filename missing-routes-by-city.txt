@@ -1,0 +1,27 @@
+Generated: 2026-01-31T17:03:57.940Z
+Cities: 38
+Pairs checked (directed): 1406
+Missing pairs (directed): 50
+
+Berlin: Vancouver
+Bruges: London, Lyon, Nice, Valletta
+Budapest: Vancouver
+Hamburg: Vancouver
+London: Bruges, Lyon, Nice, Valletta
+Lyon: Bruges, London, Valletta
+Madrid: Vancouver
+Milan: Vancouver
+Munich: Vancouver
+Nice: Bruges, London, Valletta
+Riga: Vancouver
+San Sebastian: Vancouver
+Seville: Vancouver
+Split: Vancouver
+Stockholm: Vancouver
+Tallinn: Vancouver
+Trieste: Vancouver
+Valletta: Bruges, London, Lyon, Nice
+Vancouver: Berlin, Budapest, Hamburg, Madrid, Milan, Munich, Riga, San Sebastian, Seville, Split, Stockholm, Tallinn, Trieste, Vienna, Warsaw, Zagreb
+Vienna: Vancouver
+Warsaw: Vancouver
+Zagreb: Vancouver

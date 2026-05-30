@@ -174,11 +174,13 @@
             border: 1px solid rgba(255,255,255,0.06);
         }
         .city-filter-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px;
+            margin-top: 12px;
         }
+        /* "TOP 5" on every chip was repetitive noise — drop it for a cleaner grid */
+        .city-filter-meta { display: none; }
         .city-filter-btn {
             background: rgba(255,255,255,0.06);
             border: 1px solid rgba(255,255,255,0.10);
@@ -245,40 +247,59 @@
         }
 
         .brand {
-            font-size: 24px;
+            font-size: 25px;
             font-weight: 800;
-            margin-bottom: 30px;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
+            margin-bottom: 26px;
+            background: linear-gradient(120deg, #7fd0ff 0%, #4facfe 45%, #00f2fe 100%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 2.5px;
+            filter: drop-shadow(0 2px 14px rgba(79,172,254,0.35));
         }
+        /* Consistent sidebar section headers */
+        .sidebar-section-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--accent);
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin: 0 0 14px 0;
+        }
+        .sidebar-section-label i { font-size: 11px; opacity: 0.9; }
 
         .filter-group { display: flex; flex-direction: column; gap: 8px; }
         .filter-item {
             cursor: pointer;
-            border-radius: 8px;
-            transition: all 0.2s;
-            border: 1px solid transparent;
-            background: rgba(255,255,255,0.03);
+            border-radius: var(--r-md);
+            transition: background var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease), transform var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease);
+            border: 1px solid var(--border-subtle);
+            background: var(--surface-2);
             overflow: hidden;
         }
-        .filter-item:hover { background: rgba(255,255,255,0.08); }
-        .filter-item.active { 
-            background: rgba(255,255,255,0.1); 
-            border-color: rgba(255,255,255,0.2);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        .filter-item:hover {
+            background: var(--surface-3);
+            border-color: var(--border-standard);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-2);
+        }
+        .filter-item.active {
+            background: linear-gradient(135deg, rgba(79,172,254,0.16), rgba(0,242,254,0.06));
+            border-color: var(--accent-ring);
+            box-shadow: var(--glow-accent);
         }
         .filter-header {
             display: flex;
             align-items: center;
-            padding: 12px;
+            padding: 13px 14px;
         }
-        .color-dot { width: 10px; height: 10px; border-radius: 50%; margin-right: 12px; box-shadow: 0 0 8px currentColor; flex-shrink: 0; }
-        .filter-text { font-size: 13px; font-weight: 600; flex-grow: 1; line-height: 1.4; }
-        .filter-code { font-size: 10px; opacity: 0.6; font-weight: 400; display: block; margin-top: 2px;}
+        .color-dot { width: 11px; height: 11px; border-radius: 50%; margin-right: 12px; box-shadow: 0 0 10px currentColor, 0 0 4px currentColor; flex-shrink: 0; }
+        .filter-text { font-size: 13px; font-weight: 700; flex-grow: 1; line-height: 1.4; color: var(--text-1); }
+        .filter-code { font-size: 10.5px; color: var(--text-3); font-weight: 500; display: block; margin-top: 3px; letter-spacing: 0.2px; }
         .expand-btn {
             background: none;
             border: none;
@@ -1851,7 +1872,7 @@
         </div>
 
         <div class="sidebar-scroll">
-            <p style="font-size: 11px; font-weight: 700; color: #667; letter-spacing: 1px; margin-bottom: 15px;">ITINERARY OPTIONS</p>
+            <p class="sidebar-section-label"><i class="fa-solid fa-route"></i> Itinerary Options</p>
             <div class="filter-group" id="filters">
                 <!-- Populated by JS -->
             </div>

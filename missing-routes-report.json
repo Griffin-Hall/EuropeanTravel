@@ -1,452 +1,2662 @@
 {
-  "generatedAt": "2026-01-31T17:03:57.940Z",
-  "source": "Europedashboard.html",
-  "cityCount": 38,
-  "totalDirectedPairs": 1406,
-  "missingDirectedPairs": 50,
+  "generatedAt": "2026-05-30T01:47:11.535Z",
+  "source": "data.js",
+  "cityCount": 55,
+  "totalDirectedPairs": 2970,
+  "missingDirectedPairs": 318,
   "missingByCity": {
     "Vancouver": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Amsterdam": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Prague": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Krakow": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Athens": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Paros": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Santorini": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como",
+      "Sorrento"
+    ],
+    "Mykonos": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como",
+      "Sorrento"
+    ],
+    "Thessaloniki": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como",
+      "Sorrento"
+    ],
+    "Crete": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como",
+      "Sorrento"
+    ],
+    "Rhodes": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como",
+      "Sorrento"
+    ],
+    "Copenhagen": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Ljubljana": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Lisbon": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Barcelona": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Ghent": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Vienna": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Porto": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Valencia": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Split": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como",
+      "Sorrento"
+    ],
+    "Edinburgh": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "London": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Budapest": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Zagreb": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Helsinki": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Riga": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Munich": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Frankfurt": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Warsaw": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Tallinn": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Paris": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "San Sebastian": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Berlin": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Madrid": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Stockholm": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Hamburg": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Milan": [
+      "Amalfi"
+    ],
+    "Seville": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Trieste": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Valletta": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Lyon": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Nice": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Bruges": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Rome": [
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Florence": [
+      "Amalfi",
+      "Lake Como"
+    ],
+    "Venice": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Bologna": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Naples": [
+      "Cinque Terre",
+      "Lake Como"
+    ],
+    "Sorrento": [
+      "Cinque Terre",
+      "Crete",
+      "Lake Como",
+      "Mykonos",
+      "Palermo",
+      "Rhodes",
+      "Santorini",
+      "Split",
+      "Thessaloniki",
+      "Verona"
+    ],
+    "Amalfi": [
+      "Amsterdam",
+      "Athens",
+      "Barcelona",
       "Berlin",
+      "Bologna",
+      "Bruges",
       "Budapest",
+      "Cinque Terre",
+      "Copenhagen",
+      "Crete",
+      "Edinburgh",
+      "Florence",
+      "Frankfurt",
+      "Ghent",
       "Hamburg",
+      "Helsinki",
+      "Krakow",
+      "Lake Como",
+      "Lisbon",
+      "Ljubljana",
+      "London",
+      "Lyon",
       "Madrid",
+      "Mallorca",
       "Milan",
       "Munich",
+      "Mykonos",
+      "Nice",
+      "Paris",
+      "Paros",
+      "Porto",
+      "Prague",
+      "Rhodes",
       "Riga",
       "San Sebastian",
+      "Santorini",
       "Seville",
       "Split",
       "Stockholm",
       "Tallinn",
+      "Thessaloniki",
       "Trieste",
+      "Valencia",
+      "Valletta",
+      "Vancouver",
+      "Venice",
+      "Verona",
       "Vienna",
       "Warsaw",
       "Zagreb"
     ],
-    "Vienna": [
-      "Vancouver"
-    ],
-    "Split": [
-      "Vancouver"
-    ],
-    "London": [
+    "Cinque Terre": [
+      "Amalfi",
+      "Amsterdam",
+      "Athens",
+      "Barcelona",
+      "Berlin",
+      "Bologna",
       "Bruges",
+      "Budapest",
+      "Copenhagen",
+      "Crete",
+      "Edinburgh",
+      "Frankfurt",
+      "Ghent",
+      "Hamburg",
+      "Helsinki",
+      "Krakow",
+      "Lake Como",
+      "Lisbon",
+      "Ljubljana",
+      "London",
       "Lyon",
+      "Madrid",
+      "Mallorca",
+      "Munich",
+      "Mykonos",
+      "Naples",
       "Nice",
-      "Valletta"
+      "Palermo",
+      "Paris",
+      "Paros",
+      "Porto",
+      "Prague",
+      "Rhodes",
+      "Riga",
+      "Rome",
+      "San Sebastian",
+      "Santorini",
+      "Seville",
+      "Sorrento",
+      "Split",
+      "Stockholm",
+      "Tallinn",
+      "Thessaloniki",
+      "Trieste",
+      "Valencia",
+      "Valletta",
+      "Vancouver",
+      "Venice",
+      "Verona",
+      "Vienna",
+      "Warsaw",
+      "Zagreb"
     ],
-    "Budapest": [
-      "Vancouver"
-    ],
-    "Zagreb": [
-      "Vancouver"
-    ],
-    "Riga": [
-      "Vancouver"
-    ],
-    "Munich": [
-      "Vancouver"
-    ],
-    "Warsaw": [
-      "Vancouver"
-    ],
-    "Tallinn": [
-      "Vancouver"
-    ],
-    "San Sebastian": [
-      "Vancouver"
-    ],
-    "Berlin": [
-      "Vancouver"
-    ],
-    "Madrid": [
-      "Vancouver"
-    ],
-    "Stockholm": [
-      "Vancouver"
-    ],
-    "Hamburg": [
-      "Vancouver"
-    ],
-    "Milan": [
-      "Vancouver"
-    ],
-    "Seville": [
-      "Vancouver"
-    ],
-    "Trieste": [
-      "Vancouver"
-    ],
-    "Valletta": [
+    "Lake Como": [
+      "Amalfi",
+      "Amsterdam",
+      "Athens",
+      "Barcelona",
+      "Berlin",
+      "Bologna",
       "Bruges",
+      "Budapest",
+      "Cinque Terre",
+      "Copenhagen",
+      "Crete",
+      "Edinburgh",
+      "Florence",
+      "Frankfurt",
+      "Ghent",
+      "Hamburg",
+      "Helsinki",
+      "Krakow",
+      "Lisbon",
+      "Ljubljana",
       "London",
       "Lyon",
-      "Nice"
-    ],
-    "Lyon": [
-      "Bruges",
-      "London",
-      "Valletta"
-    ],
-    "Nice": [
-      "Bruges",
-      "London",
-      "Valletta"
-    ],
-    "Bruges": [
-      "London",
-      "Lyon",
+      "Madrid",
+      "Mallorca",
+      "Munich",
+      "Mykonos",
+      "Naples",
       "Nice",
-      "Valletta"
+      "Palermo",
+      "Paris",
+      "Paros",
+      "Porto",
+      "Prague",
+      "Rhodes",
+      "Riga",
+      "Rome",
+      "San Sebastian",
+      "Santorini",
+      "Seville",
+      "Sorrento",
+      "Split",
+      "Stockholm",
+      "Tallinn",
+      "Thessaloniki",
+      "Trieste",
+      "Valencia",
+      "Valletta",
+      "Vancouver",
+      "Venice",
+      "Vienna",
+      "Warsaw",
+      "Zagreb"
+    ],
+    "Verona": [
+      "Amalfi",
+      "Cinque Terre",
+      "Sorrento"
+    ],
+    "Palermo": [
+      "Cinque Terre",
+      "Lake Como",
+      "Sorrento"
+    ],
+    "Mallorca": [
+      "Amalfi",
+      "Cinque Terre",
+      "Lake Como"
     ]
   },
   "missingDetails": [
     {
-      "from": "Berlin",
-      "to": "Vancouver",
+      "from": "Amalfi",
+      "to": "Amsterdam",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Bruges",
-      "to": "London",
+      "from": "Amalfi",
+      "to": "Athens",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Bruges",
-      "to": "Lyon",
+      "from": "Amalfi",
+      "to": "Barcelona",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Bruges",
-      "to": "Nice",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Bruges",
-      "to": "Valletta",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Budapest",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Hamburg",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "London",
-      "to": "Bruges",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "London",
-      "to": "Lyon",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "London",
-      "to": "Nice",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "London",
-      "to": "Valletta",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Lyon",
-      "to": "Bruges",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Lyon",
-      "to": "London",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Lyon",
-      "to": "Valletta",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Madrid",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Milan",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Munich",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Nice",
-      "to": "Bruges",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Nice",
-      "to": "London",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Nice",
-      "to": "Valletta",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Riga",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "San Sebastian",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Seville",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Split",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Stockholm",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Tallinn",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Trieste",
-      "to": "Vancouver",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Valletta",
-      "to": "Bruges",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Valletta",
-      "to": "London",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Valletta",
-      "to": "Lyon",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Valletta",
-      "to": "Nice",
-      "reason": "missing in both travelTimes and legDurations",
-      "travelTime": null,
-      "legDurationLabel": null
-    },
-    {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "Berlin",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Bologna",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Bruges",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Budapest",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Copenhagen",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Crete",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Edinburgh",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Florence",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Frankfurt",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Ghent",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Hamburg",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Helsinki",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Krakow",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Lisbon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Ljubljana",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "London",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Lyon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Madrid",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Mallorca",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Milan",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "Munich",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Mykonos",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Nice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Paris",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Paros",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Porto",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Prague",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Rhodes",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Riga",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "San Sebastian",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Santorini",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Seville",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "Split",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "Stockholm",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "Tallinn",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Thessaloniki",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Trieste",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
+      "to": "Valencia",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Valletta",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Venice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
+      "to": "Verona",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amalfi",
       "to": "Vienna",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "Warsaw",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vancouver",
+      "from": "Amalfi",
       "to": "Zagreb",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
-      "from": "Vienna",
+      "from": "Amsterdam",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amsterdam",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Amsterdam",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Athens",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Athens",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Athens",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Barcelona",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Barcelona",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Barcelona",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Berlin",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Berlin",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Berlin",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bologna",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bologna",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bologna",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bruges",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bruges",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Bruges",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Budapest",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Budapest",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Budapest",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Amsterdam",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Athens",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Barcelona",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Berlin",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Bologna",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Bruges",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Budapest",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Copenhagen",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Crete",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Edinburgh",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Frankfurt",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Ghent",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Hamburg",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Helsinki",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Krakow",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Lisbon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Ljubljana",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "London",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Lyon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Madrid",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Mallorca",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Munich",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Mykonos",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Naples",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Nice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Palermo",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Paris",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Paros",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Porto",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Prague",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Rhodes",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Riga",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Rome",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "San Sebastian",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Santorini",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Seville",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Split",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Stockholm",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Tallinn",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Thessaloniki",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Trieste",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Valencia",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Valletta",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
       "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Venice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Verona",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Vienna",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Warsaw",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Cinque Terre",
+      "to": "Zagreb",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Copenhagen",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Copenhagen",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Copenhagen",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Crete",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Crete",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Crete",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Crete",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Edinburgh",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Edinburgh",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Edinburgh",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Florence",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Florence",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Frankfurt",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Frankfurt",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Frankfurt",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Ghent",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Ghent",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Ghent",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Hamburg",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Hamburg",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Hamburg",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Helsinki",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Helsinki",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Helsinki",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Krakow",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Krakow",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Krakow",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Amsterdam",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Athens",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Barcelona",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Berlin",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Bologna",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Bruges",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Budapest",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Copenhagen",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Crete",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Edinburgh",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Florence",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Frankfurt",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Ghent",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Hamburg",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Helsinki",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Krakow",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Lisbon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Ljubljana",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "London",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Lyon",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Madrid",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Mallorca",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Munich",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Mykonos",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Naples",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Nice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Palermo",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Paris",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Paros",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Porto",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Prague",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Rhodes",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Riga",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Rome",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "San Sebastian",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Santorini",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Seville",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Split",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Stockholm",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Tallinn",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Thessaloniki",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Trieste",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Valencia",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Valletta",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Vancouver",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Venice",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Vienna",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Warsaw",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lake Como",
+      "to": "Zagreb",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lisbon",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lisbon",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lisbon",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Ljubljana",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Ljubljana",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Ljubljana",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "London",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "London",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "London",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lyon",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lyon",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Lyon",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Madrid",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Madrid",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Madrid",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Mallorca",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Mallorca",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Mallorca",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Milan",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Munich",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Munich",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Munich",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Mykonos",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Mykonos",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Mykonos",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Mykonos",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Naples",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Naples",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Nice",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Nice",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Nice",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Palermo",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Palermo",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Palermo",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Paris",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Paris",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Paris",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Paros",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Paros",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Paros",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Porto",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Porto",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Porto",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Prague",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Prague",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Prague",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Rhodes",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Rhodes",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Rhodes",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Rhodes",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Riga",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Riga",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Riga",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Rome",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Rome",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "San Sebastian",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "San Sebastian",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "San Sebastian",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Santorini",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Santorini",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Santorini",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Santorini",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Seville",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Seville",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Seville",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Crete",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Mykonos",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Palermo",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Rhodes",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Santorini",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Split",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Thessaloniki",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Sorrento",
+      "to": "Verona",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Split",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Split",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Split",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Split",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Stockholm",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Stockholm",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Stockholm",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Tallinn",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Tallinn",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Tallinn",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Thessaloniki",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Thessaloniki",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Thessaloniki",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Thessaloniki",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Trieste",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Trieste",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Trieste",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valencia",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valencia",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valencia",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valletta",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valletta",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Valletta",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vancouver",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Venice",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Venice",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Venice",
+      "to": "Lake Como",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Verona",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Verona",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Verona",
+      "to": "Sorrento",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vienna",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vienna",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Vienna",
+      "to": "Lake Como",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
       "from": "Warsaw",
-      "to": "Vancouver",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Warsaw",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Warsaw",
+      "to": "Lake Como",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null
     },
     {
       "from": "Zagreb",
-      "to": "Vancouver",
+      "to": "Amalfi",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Zagreb",
+      "to": "Cinque Terre",
+      "reason": "missing in both travelTimes and legDurations",
+      "travelTime": null,
+      "legDurationLabel": null
+    },
+    {
+      "from": "Zagreb",
+      "to": "Lake Como",
       "reason": "missing in both travelTimes and legDurations",
       "travelTime": null,
       "legDurationLabel": null

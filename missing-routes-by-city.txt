@@ -1,27 +1,60 @@
-Generated: 2026-01-31T17:03:57.940Z
-Cities: 38
-Pairs checked (directed): 1406
-Missing pairs (directed): 50
+Generated: 2026-05-30T01:47:11.535Z
+Cities: 55
+Pairs checked (directed): 2970
+Missing pairs (directed): 318
 
-Berlin: Vancouver
-Bruges: London, Lyon, Nice, Valletta
-Budapest: Vancouver
-Hamburg: Vancouver
-London: Bruges, Lyon, Nice, Valletta
-Lyon: Bruges, London, Valletta
-Madrid: Vancouver
-Milan: Vancouver
-Munich: Vancouver
-Nice: Bruges, London, Valletta
-Riga: Vancouver
-San Sebastian: Vancouver
-Seville: Vancouver
-Split: Vancouver
-Stockholm: Vancouver
-Tallinn: Vancouver
-Trieste: Vancouver
-Valletta: Bruges, London, Lyon, Nice
-Vancouver: Berlin, Budapest, Hamburg, Madrid, Milan, Munich, Riga, San Sebastian, Seville, Split, Stockholm, Tallinn, Trieste, Vienna, Warsaw, Zagreb
-Vienna: Vancouver
-Warsaw: Vancouver
-Zagreb: Vancouver
+Amalfi: Amsterdam, Athens, Barcelona, Berlin, Bologna, Bruges, Budapest, Cinque Terre, Copenhagen, Crete, Edinburgh, Florence, Frankfurt, Ghent, Hamburg, Helsinki, Krakow, Lake Como, Lisbon, Ljubljana, London, Lyon, Madrid, Mallorca, Milan, Munich, Mykonos, Nice, Paris, Paros, Porto, Prague, Rhodes, Riga, San Sebastian, Santorini, Seville, Split, Stockholm, Tallinn, Thessaloniki, Trieste, Valencia, Valletta, Vancouver, Venice, Verona, Vienna, Warsaw, Zagreb
+Amsterdam: Amalfi, Cinque Terre, Lake Como
+Athens: Amalfi, Cinque Terre, Lake Como
+Barcelona: Amalfi, Cinque Terre, Lake Como
+Berlin: Amalfi, Cinque Terre, Lake Como
+Bologna: Amalfi, Cinque Terre, Lake Como
+Bruges: Amalfi, Cinque Terre, Lake Como
+Budapest: Amalfi, Cinque Terre, Lake Como
+Cinque Terre: Amalfi, Amsterdam, Athens, Barcelona, Berlin, Bologna, Bruges, Budapest, Copenhagen, Crete, Edinburgh, Frankfurt, Ghent, Hamburg, Helsinki, Krakow, Lake Como, Lisbon, Ljubljana, London, Lyon, Madrid, Mallorca, Munich, Mykonos, Naples, Nice, Palermo, Paris, Paros, Porto, Prague, Rhodes, Riga, Rome, San Sebastian, Santorini, Seville, Sorrento, Split, Stockholm, Tallinn, Thessaloniki, Trieste, Valencia, Valletta, Vancouver, Venice, Verona, Vienna, Warsaw, Zagreb
+Copenhagen: Amalfi, Cinque Terre, Lake Como
+Crete: Amalfi, Cinque Terre, Lake Como, Sorrento
+Edinburgh: Amalfi, Cinque Terre, Lake Como
+Florence: Amalfi, Lake Como
+Frankfurt: Amalfi, Cinque Terre, Lake Como
+Ghent: Amalfi, Cinque Terre, Lake Como
+Hamburg: Amalfi, Cinque Terre, Lake Como
+Helsinki: Amalfi, Cinque Terre, Lake Como
+Krakow: Amalfi, Cinque Terre, Lake Como
+Lake Como: Amalfi, Amsterdam, Athens, Barcelona, Berlin, Bologna, Bruges, Budapest, Cinque Terre, Copenhagen, Crete, Edinburgh, Florence, Frankfurt, Ghent, Hamburg, Helsinki, Krakow, Lisbon, Ljubljana, London, Lyon, Madrid, Mallorca, Munich, Mykonos, Naples, Nice, Palermo, Paris, Paros, Porto, Prague, Rhodes, Riga, Rome, San Sebastian, Santorini, Seville, Sorrento, Split, Stockholm, Tallinn, Thessaloniki, Trieste, Valencia, Valletta, Vancouver, Venice, Vienna, Warsaw, Zagreb
+Lisbon: Amalfi, Cinque Terre, Lake Como
+Ljubljana: Amalfi, Cinque Terre, Lake Como
+London: Amalfi, Cinque Terre, Lake Como
+Lyon: Amalfi, Cinque Terre, Lake Como
+Madrid: Amalfi, Cinque Terre, Lake Como
+Mallorca: Amalfi, Cinque Terre, Lake Como
+Milan: Amalfi
+Munich: Amalfi, Cinque Terre, Lake Como
+Mykonos: Amalfi, Cinque Terre, Lake Como, Sorrento
+Naples: Cinque Terre, Lake Como
+Nice: Amalfi, Cinque Terre, Lake Como
+Palermo: Cinque Terre, Lake Como, Sorrento
+Paris: Amalfi, Cinque Terre, Lake Como
+Paros: Amalfi, Cinque Terre, Lake Como
+Porto: Amalfi, Cinque Terre, Lake Como
+Prague: Amalfi, Cinque Terre, Lake Como
+Rhodes: Amalfi, Cinque Terre, Lake Como, Sorrento
+Riga: Amalfi, Cinque Terre, Lake Como
+Rome: Cinque Terre, Lake Como
+San Sebastian: Amalfi, Cinque Terre, Lake Como
+Santorini: Amalfi, Cinque Terre, Lake Como, Sorrento
+Seville: Amalfi, Cinque Terre, Lake Como
+Sorrento: Cinque Terre, Crete, Lake Como, Mykonos, Palermo, Rhodes, Santorini, Split, Thessaloniki, Verona
+Split: Amalfi, Cinque Terre, Lake Como, Sorrento
+Stockholm: Amalfi, Cinque Terre, Lake Como
+Tallinn: Amalfi, Cinque Terre, Lake Como
+Thessaloniki: Amalfi, Cinque Terre, Lake Como, Sorrento
+Trieste: Amalfi, Cinque Terre, Lake Como
+Valencia: Amalfi, Cinque Terre, Lake Como
+Valletta: Amalfi, Cinque Terre, Lake Como
+Vancouver: Amalfi, Cinque Terre, Lake Como
+Venice: Amalfi, Cinque Terre, Lake Como
+Verona: Amalfi, Cinque Terre, Sorrento
+Vienna: Amalfi, Cinque Terre, Lake Como
+Warsaw: Amalfi, Cinque Terre, Lake Como
+Zagreb: Amalfi, Cinque Terre, Lake Como

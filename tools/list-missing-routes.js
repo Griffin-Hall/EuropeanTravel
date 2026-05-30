@@ -3,18 +3,11 @@
 
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
-const HTML_PATH = path.join(ROOT, 'Europedashboard.html');
-
-function extractBetween(source, startMarker, endMarker) {
-  const startIdx = source.indexOf(startMarker);
-  if (startIdx === -1) throw new Error(`Start marker not found: ${startMarker}`);
-  const endIdx = source.indexOf(endMarker, startIdx);
-  if (endIdx === -1) throw new Error(`End marker not found: ${endMarker}`);
-  return source.slice(startIdx, endIdx);
-}
+const { cities, travelTimes, travelTimesSupplemental, legDurations,
+        getTravelTime, getLegOptions, getFastestLegOption, parseDurationToHours } =
+  require('../data.js');
 
 function isFiniteNumber(x) {
   return typeof x === 'number' && Number.isFinite(x);
@@ -33,30 +26,7 @@ function safePickTravelInfo(info) {
 }
 
 function main() {
-  const html = fs.readFileSync(HTML_PATH, 'utf8');
-
-  // Keep this scoped to the "data + helpers" block only (no THREE/DOM/window).
-  const jsBlock = extractBetween(
-    html,
-    '// --- 1. DATA CONFIGURATION ---',
-    '// --- 2. THREE.JS SETUP ---'
-  );
-
-  const wrapped = `(function(){\n${jsBlock}\nreturn { cities, travelTimes, travelTimesSupplemental, legDurations, getTravelTime, getLegOptions, getFastestLegOption, parseDurationToHours };\n})()`;
-
-  const ctx = {
-    console,
-    Math,
-    encodeURIComponent,
-    // Some helper functions are assigned onto window in the extracted block.
-    // They are not executed here, but window must exist to avoid ReferenceError.
-    window: {},
-    // Not required unless those functions are called, but harmless to include.
-    document: { getElementById: () => null },
-  };
-
-  const data = vm.runInNewContext(wrapped, ctx, { timeout: 2000 });
-  const cityNames = Object.keys(data.cities);
+  const cityNames = Object.keys(cities);
 
   const missingByCity = {};
   const missingDetails = [];
@@ -69,15 +39,15 @@ function main() {
       if (from === to) continue;
       totalPairs += 1;
 
-      const fastest = data.getFastestLegOption(from, to);
+      const fastest = getFastestLegOption(from, to);
       if (fastest) continue;
 
       missingPairs += 1;
 
-      const info = data.getTravelTime(from, to);
+      const info = getTravelTime(from, to);
       const legKey = `${from}-${to}`;
       const legKeyReverse = `${to}-${from}`;
-      const legLabel = data.legDurations[legKey] ?? data.legDurations[legKeyReverse] ?? null;
+      const legLabel = legDurations[legKey] ?? legDurations[legKeyReverse] ?? null;
 
       const hasInfo = !!info;
       const hasLegLabel = !!legLabel;
@@ -87,15 +57,14 @@ function main() {
       else if (!hasInfo && hasLegLabel) reason = 'legDurations exists but has no numeric/parseable duration';
       else if (hasInfo && hasLegLabel) reason = 'both exist but neither yields numeric/parseable duration';
 
-      // More precise: if info exists, check whether *any* field should have parsed but didn’t.
       if (hasInfo) {
         const flightHours =
-          isFiniteNumber(info.flightHours) ? info.flightHours : data.parseDurationToHours(info.flight);
+          isFiniteNumber(info.flightHours) ? info.flightHours : parseDurationToHours(info.flight);
         const trainHours =
-          isFiniteNumber(info.trainHours) ? info.trainHours : data.parseDurationToHours(info.train);
+          isFiniteNumber(info.trainHours) ? info.trainHours : parseDurationToHours(info.train);
 
         if (isFiniteNumber(flightHours) || isFiniteNumber(trainHours)) {
-          // If we got here, it means getFastestLegOption still failed; keep generic reason.
+          // getFastestLegOption still failed; keep generic reason.
         }
       }
 
@@ -112,7 +81,6 @@ function main() {
     }
   }
 
-  // Deterministic output.
   for (const k of Object.keys(missingByCity)) missingByCity[k].sort((a, b) => a.localeCompare(b));
 
   missingDetails.sort((a, b) => {
@@ -123,7 +91,7 @@ function main() {
 
   const out = {
     generatedAt: new Date().toISOString(),
-    source: path.relative(ROOT, HTML_PATH),
+    source: 'data.js',
     cityCount: cityNames.length,
     totalDirectedPairs: totalPairs,
     missingDirectedPairs: missingPairs,
@@ -134,7 +102,6 @@ function main() {
   const outPath = path.join(ROOT, 'missing-routes-report.json');
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2), 'utf8');
 
-  // Also write a human-friendly, grouped-by-city text file.
   const lines = [];
   lines.push(`Generated: ${out.generatedAt}`);
   lines.push(`Cities: ${out.cityCount}`);
@@ -156,4 +123,3 @@ function main() {
 }
 
 main();
-

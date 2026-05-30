@@ -3,7 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>European Odyssey - Interactive Dashboard</title>
+    <title>European Odyssey — Interactive 3D Travel Dashboard</title>
+    <meta name="description" content="Plan your European trip on an interactive 3D globe. Explore 55+ cities, build custom itineraries with real travel times, estimate trip costs, and export your plan. Built with Three.js.">
+    <meta name="author" content="Griffin Hall">
+    <meta name="theme-color" content="#020205">
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="European Odyssey — Interactive 3D Travel Dashboard">
+    <meta property="og:description" content="Explore 55+ European cities on a 3D globe, build custom itineraries with real travel times, and estimate trip costs. Built with Three.js.">
+    <meta property="og:url" content="https://griffin-hall.github.io/EuropeanTravel/">
+    <meta property="og:image" content="https://image.pollinations.ai/prompt/3D%20globe%20of%20Europe%20at%20night%20glowing%20cyan%20flight%20routes%20dark%20space%20travel%20dashboard%20cinematic?width=1200&height=630&nologo=true">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="European Odyssey — Interactive 3D Travel Dashboard">
+    <meta name="twitter:description" content="Explore 55+ European cities on a 3D globe, build custom itineraries, and estimate trip costs. Built with Three.js.">
+    <meta name="twitter:image" content="https://image.pollinations.ai/prompt/3D%20globe%20of%20Europe%20at%20night%20glowing%20cyan%20flight%20routes%20dark%20space%20travel%20dashboard%20cinematic?width=1200&height=630&nologo=true">
+
+    <!-- Favicon (inline SVG globe — no file needed) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%8D%3C/text%3E%3C/svg%3E">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -1661,6 +1682,23 @@
             color: #4facfe;
         }
 
+        /* ── Responsive: phones & small tablets ────────────────────────── */
+        @media (max-width: 768px) {
+            .sidebar { width: 82vw; max-width: 320px; padding: 20px 16px; }
+            .brand { font-size: 20px; margin-bottom: 18px; letter-spacing: 1px; }
+            /* City detail panel slides over full width instead of overflowing */
+            #city-modal { width: 100vw; right: -100vw; }
+            #city-modal.open { right: 0; }
+            /* Keep onboarding hint on-screen */
+            #onboarding-hint { max-width: 90vw; font-size: 11px; padding: 10px 14px; bottom: 18px; }
+            /* Prevent any embedded media from forcing horizontal scroll */
+            img, iframe { max-width: 100%; }
+        }
+        @media (max-width: 480px) {
+            .sidebar { width: 88vw; padding: 16px 14px; }
+            #loading-screen div:first-child { font-size: 24px !important; }
+        }
+
     </style>
 </head>
 <body>
@@ -1677,6 +1715,12 @@
 
 <div id="canvas-container"></div>
 <div id="tooltip"></div>
+
+<!-- First-load onboarding hint -->
+<div id="onboarding-hint" style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(20px);z-index:500;background:rgba(10,15,30,0.92);backdrop-filter:blur(10px);border:1px solid rgba(79,172,254,0.3);border-radius:30px;padding:11px 22px;display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,0.85);box-shadow:0 8px 28px rgba(0,0,0,0.4);opacity:0;pointer-events:none;transition:opacity 0.6s ease,transform 0.6s ease;">
+    <span style="font-size:16px;">💡</span>
+    <span><strong style="color:#4facfe;">Drag</strong> to spin the globe · <strong style="color:#4facfe;">click</strong> any city · or <strong style="color:#4facfe;">search</strong> above</span>
+</div>
 
 <!-- Image Lightbox -->
 <div id="image-lightbox" onclick="closeLightbox(event)">
@@ -1697,8 +1741,9 @@
         <!-- City Search Bar -->
         <div style="position:relative;margin:0 0 14px 0;">
             <span style="position:absolute;left:11px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,0.35);font-size:13px;pointer-events:none;">🔍</span>
-            <input id="city-search-input" type="text" placeholder="Search cities..."
+            <input id="city-search-input" type="text" placeholder="Search cities..." autocomplete="off"
                 oninput="onCitySearchInput(this.value)"
+                onkeydown="onCitySearchKeydown(event)"
                 onblur="setTimeout(hideCitySearchDropdown, 150)"
                 style="width:100%;box-sizing:border-box;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:10px 12px 10px 32px;color:white;font-size:13px;font-family:'Montserrat',sans-serif;outline:none;">
             <div id="city-search-dropdown" style="display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;background:rgba(10,15,30,0.98);border:1px solid rgba(255,255,255,0.1);border-radius:10px;overflow:hidden;z-index:999;box-shadow:0 8px 24px rgba(0,0,0,0.5);"></div>
@@ -2569,6 +2614,20 @@
         if (!screen) return;
         screen.style.opacity = '0';
         setTimeout(() => { screen.style.display = 'none'; }, 750);
+
+        // Show onboarding hint once, then auto-dismiss
+        const hint = document.getElementById('onboarding-hint');
+        if (hint && !localStorage.getItem('odyssey-hint-seen')) {
+            setTimeout(() => {
+                hint.style.opacity = '1';
+                hint.style.transform = 'translateX(-50%) translateY(0)';
+            }, 900);
+            setTimeout(() => {
+                hint.style.opacity = '0';
+                hint.style.transform = 'translateX(-50%) translateY(20px)';
+            }, 7500);
+            localStorage.setItem('odyssey-hint-seen', '1');
+        }
     };
     loadingManager.onProgress = function() {
         const bar = document.getElementById('loading-bar');
@@ -3887,10 +3946,14 @@
 
     function dailyFoodCost(city) {
         if (!city || !city.costs || !city.costs.inexpensiveMeal) return 45;
-        const cheap = parsePriceCAD(city.costs.inexpensiveMeal.price) || 0;
-        const mid   = parsePriceCAD(city.costs.midRangeMeal.price)    || 0;
-        const beer  = parsePriceCAD(city.costs.beer.price)            || 0;
-        const cad   = (cheap * 2) + mid + (beer * 2);
+        // Numbeo midRangeMeal is priced for 2 people, so a per-person day is:
+        // lunch (inexpensive meal) + half a shared mid-range dinner + one drink.
+        // Individual cost fields may be missing (e.g. some cities have no beer price),
+        // so each is read defensively.
+        const cheap = parsePriceCAD(city.costs.inexpensiveMeal && city.costs.inexpensiveMeal.price) || 0;
+        const mid   = parsePriceCAD(city.costs.midRangeMeal    && city.costs.midRangeMeal.price)    || 0;
+        const beer  = parsePriceCAD(city.costs.beer            && city.costs.beer.price)            || 0;
+        const cad   = cheap + (mid * 0.5) + beer;
         return Math.round(cad * 0.68); // CAD → EUR ~0.68
     }
 
@@ -4003,18 +4066,38 @@
     let cameraFlyTarget = null;
     let cameraFlyCity   = null;
     let cameraFlyFrames = 0;
+    let citySearchMatches = [];
+
+    window.onCitySearchKeydown = function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            if (citySearchMatches.length > 0) {
+                selectCityFromSearch(citySearchMatches[0]);
+            }
+        } else if (event.key === 'Escape') {
+            event.target.value = '';
+            hideCitySearchDropdown();
+            event.target.blur();
+        }
+    };
 
     window.onCitySearchInput = function(query) {
         const dropdown = document.getElementById('city-search-dropdown');
         if (!dropdown) return;
         const q = query.trim().toLowerCase();
-        if (!q) { dropdown.style.display = 'none'; return; }
+        if (!q) { dropdown.style.display = 'none'; citySearchMatches = []; return; }
 
+        // Prioritise prefix matches, then substring matches.
         const matches = Object.entries(cities)
-            .filter(([name]) => name.toLowerCase().startsWith(q) || name.toLowerCase().includes(q))
-            .filter(([name]) => name !== ORIGIN_CITY)
+            .filter(([name]) => name !== ORIGIN_CITY && name.toLowerCase().includes(q))
+            .sort((a, b) => {
+                const aStarts = a[0].toLowerCase().startsWith(q) ? 0 : 1;
+                const bStarts = b[0].toLowerCase().startsWith(q) ? 0 : 1;
+                return aStarts - bStarts || a[0].localeCompare(b[0]);
+            })
             .slice(0, 5);
 
+        citySearchMatches = matches.map(([name]) => name);
         if (matches.length === 0) { dropdown.style.display = 'none'; return; }
 
         dropdown.innerHTML = matches.map(([name, city], i) => {
